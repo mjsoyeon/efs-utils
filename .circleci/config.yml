@@ -237,7 +237,7 @@ workflows:
           image: python:3.10.13
       - test:
           name: python3_11
-          image: python:3.11.8
+          image: python:3.11.9
       - test:
           name: python3_12
           image: python:3.12.4      
