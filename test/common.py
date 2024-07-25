@@ -8,7 +8,7 @@
 
 import subprocess
 
-from unittest.mock import MagicMock
+from mock import MagicMock
 
 
 # The process mock can be retrieved by calling PopenMock(<init params>).mock
