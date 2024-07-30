@@ -263,6 +263,9 @@ workflows:
           name: ubuntu22
           image: ubuntu:22.04
       - build-deb-package:
+          name: ubuntu24
+          image: ubuntu:24.04
+      - build-deb-package:
           name: debian11
           image: debian:bullseye
       - build-centos-rpm-package:
